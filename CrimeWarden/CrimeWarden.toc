@@ -1,0 +1,29 @@
+## Interface: 90207
+## Title: CrimeWarden
+## Notes: Zeigt Spieler in deiner Nähe mit Entfernung, RP-Namen und IC/OOC (Total RP 3) und warnt, wenn jemand zu nahe kommt.
+## Author: demkadse
+## Version: 0.7.2
+## OptionalDeps: totalRP3
+## SavedVariables: CrimeWardenDB
+
+Locale.lua
+
+Logic\Roster.lua
+Logic\RequestQueue.lua
+Logic\Range.lua
+Logic\Alarm.lua
+Logic\ChatRange.lua
+Logic\Perception.lua
+
+Core.lua
+TRP3.lua
+Distance.lua
+Scanner.lua
+Group.lua
+Locator.lua
+Senses.lua
+ChatRangeSync.lua
+Warden.lua
+UI.lua
+Minimap.lua
+Config.lua
